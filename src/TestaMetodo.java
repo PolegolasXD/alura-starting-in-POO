@@ -19,5 +19,7 @@ public class TestaMetodo {
        }else {
            System.out.println("faltou dinheiro");
        }
+       contaA.titular = "Fabio Higor";
+        System.out.println(contaA.titular);
     }
 }
